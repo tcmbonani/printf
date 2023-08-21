@@ -16,7 +16,7 @@
 
 
 
-/** FLAGS **/
+/* FLAGS */
 
 #define F_MINUS 1
 
@@ -30,7 +30,7 @@
 
 
 
-/** SIZES **/
+/* SIZES */
 
 #define S_LONG 2
 
@@ -97,7 +97,7 @@ int flags, int width, int precision, int size);
 
 
 
-/** Functions to print numbers **/
+/* Functions to print numbers */
 
 int print_int(va_list types, char buffer[],
 
@@ -219,4 +219,4 @@ long int convert_size_unsgnd(unsigned long int num, int size);
 
 
 
-#endif
+#endif 
